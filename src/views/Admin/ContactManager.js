@@ -33,10 +33,10 @@ function ContactManager() {
 
     emailjs
       .sendForm(
-        "service_pfa5",
-        "template_4elaasf",
+        "service_id",
+        "template_id",
         form.current,
-        "RUux4-FOkvsdQqdqZ"
+        "password"
       )
       .then(
         (result) => {
