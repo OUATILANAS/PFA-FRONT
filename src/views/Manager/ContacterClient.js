@@ -21,8 +21,8 @@ function ContacterClient() {
 
     const sendEmail = async (e) => {
         e.preventDefault();
-        const serviceId = "service_pfa5";
-        const templateId = "template_4elaasf";
+        const serviceId = "service_id";
+        const templateId = "template_id";
 
         try {
 
@@ -41,7 +41,7 @@ function ContacterClient() {
     }
 
     useEffect(() => {
-        emailjs.init("RUux4-FOkvsdQqdqZ");
+        emailjs.init("password");
         getReclamationsById();
     }, [])
     return (
